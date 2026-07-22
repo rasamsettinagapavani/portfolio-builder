@@ -5,10 +5,10 @@ import jsPDF from 'jspdf';
 
 const PortfolioApp = () => {
   const [formData, setFormData] = useState({
-    name: 'Sudha Rani',
+    name: 'NAGA PAVANI',
     role: 'AI & Full Stack Developer',
     skills: 'HTML, CSS, JavaScript, React, Node.js',
-    email: 'sudharani@gmail.com',
+    email: 'pavani@gmail.com',
     profilePic: 'https://via.placeholder.com/120',
     projects: [
       { title: 'Fake News Checker', tech: 'HTML, CSS, JavaScript', desc: 'A real-time detector using ML.' },
